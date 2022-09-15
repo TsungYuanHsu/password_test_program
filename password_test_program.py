@@ -14,6 +14,8 @@ while i < 3:
 		break
 	else:
 		i = i + 1
-		print('Password is wrong and you still have', 3-i, 'try(s)')
+		print('Password is wrong')
+		if i < 3:
+			print('you still have', 3-i, 'try(s)')
 		if i == 3:
 			print('Fail to log in, please contact password agency') 
