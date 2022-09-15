@@ -1,5 +1,8 @@
 # Password test program
+# Password is a123456
 # User can only try to input password 3 times at maximum
+# If input password is correct, show Log in successfully
+# If input password is wrong, show wrong password and chance left to try
 
 correct_password = 'a123456'
 i = 0 # try time
